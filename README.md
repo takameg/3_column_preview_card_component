@@ -5,7 +5,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - Build out the project to the designs provided (Please see the disign folder and style-guide)
 
 # My Solution - Screenshot
-![screenshot of my solution](https://user-images.githubusercontent.com/64088280/116918293-92f04a80-ac04-11eb-9aa6-ebf7c3990f16.png)
+![screenshot of my solution](https://user-images.githubusercontent.com/64088280/116919288-eadb8100-ac05-11eb-93cf-7da2f5a41cec.png)
 
 # My Solution - URL: 
 - https://3-column-preview-card-component-lzftgra16-takameg.vercel.app/
