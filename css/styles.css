@@ -1,0 +1,165 @@
+/**************************************************************/
+/***** This is main css of 3_column_prewie_card_component *****/
+/**************************************************************/
+
+/************   General       ****************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 375px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+    width: 328px;
+    margin: 88px auto 32px auto;
+}
+
+
+/************   Cards       ******************/
+
+.card{
+    padding: 48px;
+    padding-bottom: 45px;
+}
+
+.orange {
+    background-color: hsl(31, 77%, 52%);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.darkCyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.veryDarkCyan {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+/************  Card Content ******************/
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 31px 0 25px 0;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card a {
+    display: block;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 40px;
+    width: 147px;
+    padding: 13px;
+    margin-top: 26px;
+    border: 2px solid hsl(0, 0%, 95%);
+    text-decoration: none;
+    text-align: center;
+}
+
+.orange a {
+    color: hsl(31, 77%, 52%);
+}
+
+.darkCyan a {
+    color: hsl(184, 100%, 22%);
+}
+
+.veryDarkCyan a {
+    color: hsl(179, 100%, 13%);
+}
+
+
+/************  Hover *************************/
+
+.card a:hover{
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.orange a:hover {
+    background-color: hsl(31, 77%, 52%);
+} 
+
+.darkCyan a:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.veryDarkCyan a:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+/************  Attribution  ******************/
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/*********************************************/
+/************  Desktop****  ******************/
+/*********************************************/
+
+@media screen and (min-width: 950px) {
+
+    /************   General     ***************/
+
+    .container {
+        margin: 170px auto 32px auto;
+        width: 920px;
+        display: flex;
+    }
+
+
+
+    /************   Cards       ******************/
+
+    .card{
+        padding-bottom: 48px;
+    }
+
+    .orange {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+
+    .veryDarkCyan {
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+
+    /************  Card Content ******************/
+
+    .card a {
+        margin-top: 83px;
+    }
+
+    /************  Attribution  ******************/
+
+    .attribution {
+        margin-bottom: 82px;
+    }
+
+}
